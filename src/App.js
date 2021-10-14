@@ -20,9 +20,7 @@ const item2 = {
 
 function App() {
   
-  const getLocalItems = ()=>{
-    let list = localStorage.getItem
-  }
+  
 
   const[input,setInput] = useState({
     
@@ -201,7 +199,7 @@ function App() {
                                   
                                 </div>
                                 <span className="delete" onClick={()=>{
-                                  const newTodos = {...state,[key]:{...state[key],items:state[key].items.filter((el2)=>el2.id!=el.id)}}
+                                  const newTodos = {...state,[key]:{...state[key],items:state[key].items.filter((el2)=>el2.id!==el.id)}}
                                   setState(newTodos)
                                 }}>
                                   X
