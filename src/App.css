@@ -201,10 +201,11 @@ justify-content: space-between;
   position: absolute;
   right: 0;
   bottom: 0;
-  border-width: 16px 16px 0 0 ;
+  border-color: transparent #eaeef1;
   border-style: solid;
-  border-color: #bdbbbb #eaeef1;
-  box-shadow: -5px -5px 10px -4px grey;
+  border-width: 16px 16px 0 0;
+  box-shadow: -7px -5px 13px -6px black;
+  border-radius: 4px 0 0 0;
 }
 .item span{
   font-size: 1.2rem;
